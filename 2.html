@@ -50,6 +50,28 @@
   #article{
     padding: 20px;
   }
+
+  @media (max-width: 750px) {
+    #grid{
+      display: block;
+    }
+    h1{
+      border-bottom: 1px lightgray solid;
+    }
+    #grid ol{
+      border-right: none;
+      border-bottom: 1px lightgray solid;
+      width: auto;
+      text-align: center;
+    }
+    #grid li{
+      width: auto;
+    }
+    #article{
+      padding:inherit;
+      text-align: center;
+    }
+  }
   </style>
 
   </head>
